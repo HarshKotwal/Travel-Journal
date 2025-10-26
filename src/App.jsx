@@ -1,9 +1,10 @@
+import Header from "./components/Header";
 import "./index.css";
 
 function App() {
   return (
     <>
-      <button>Click ME</button>
+      <Header />
     </>
   );
 }

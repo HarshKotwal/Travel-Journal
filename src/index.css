@@ -1,3 +1,21 @@
 * {
-  font-weight: 900;
+  margin: 0;
+  font-family: Inter;
+}
+
+header {
+  height: 13vh;
+  background-color: #f55a5a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header > span {
+  font-size: 1.3rem;
+  font-weight: 500;
 }
