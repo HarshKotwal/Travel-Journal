@@ -19,3 +19,42 @@ header > span {
   font-size: 1.3rem;
   font-weight: 500;
 }
+
+article.entry-journal {
+  display: flex;
+  margin: 5rem 10rem;
+  gap: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+article.entry-journal > img {
+  height: 20rem;
+  width: 15rem;
+  border-radius: 6%;
+}
+
+.upper {
+  font-size: 0.8rem;
+}
+.upper > i {
+  color: #f55a5a;
+}
+.upper > span {
+  padding-left: 0.3rem;
+}
+.upper > a {
+  color: gray;
+  padding-left: 1rem;
+}
+
+.lower > h1 {
+  padding-top: 0.8rem;
+  padding-bottom: 2.5rem;
+}
+.lower > span {
+  font-weight: 700;
+}
+.lower > p {
+  padding-top: 1.2rem;
+}
