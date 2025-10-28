@@ -116,6 +116,35 @@ export default function Entry() {
           </div>
         </div>
       </article>
+
+      <article className="entry-journal">
+        <img src="/santorini.png" alt="santorini image" />
+        <div>
+          <div className="upper">
+            <i class="fa-solid fa-location-dot" />
+            <span>Greece</span>
+            <a href="https://maps.app.goo.gl/WMvnNbt24xpjkY3v7">
+              View on Google Maps
+            </a>
+          </div>
+          <div className="lower">
+            <h1>Santorini</h1>
+            <span>12 Aug, 2026 - 19 Aug, 2026</span>
+            <p>
+              Santorini is a Greek volcanic island in the Aegean Sea, famous for
+              its stunning views of the caldera, iconic whitewashed buildings
+              with blue domes perched on cliffs, spectacular sunsets, and unique
+              volcanic beaches. The island is a popular tourist destination with
+              attractions like hiking, local wine, and beautiful sea views.
+              Santorini is one of the most romantic destinations in the world
+              and is a goto destination for newly wed couples. There's more to
+              this island than catching the sunset in Oia: Lounge by the black
+              sand Kamari Beach, explore ancient Akrotiri, or hop on a boat tour
+              to visit Nea Kameni.
+            </p>
+          </div>
+        </div>
+      </article>
     </>
   );
 }
