@@ -86,6 +86,36 @@ export default function Entry() {
           </div>
         </div>
       </article>
+
+      <article className="entry-journal">
+        <img src="/bora-bora.png" alt="bora-bora image" />
+        <div>
+          <div className="upper">
+            <i class="fa-solid fa-location-dot" />
+            <span>French Polynesia (PO)</span>
+            <a href="https://maps.app.goo.gl/LgNc4xkMUqHbJ5786">
+              View on Google Maps
+            </a>
+          </div>
+          <div className="lower">
+            <h1>Bora Bora</h1>
+            <span>25 Jun, 2026 - 05 Jul, 2026</span>
+            <p>
+              Bora Bora is a small South Pacific island northwest of Tahiti in
+              French Polynesia. Surrounded by sand-fringed motus and a turquoise
+              lagoon protected by a coral reef, its known for its scuba diving.
+              It's also a popular luxury resort destination where some guest
+              bungalows are perched over the water on stilts. At the island's
+              center rises Mt. Otemanu, a 727m dormant volcano. The main
+              attraction of Bora Bora is the lagoon with its still intact
+              underwater world. Using glass bottom boats, diving, and
+              snorkeling, tourists can explore the reef with thousands of
+              colorful coral fish. The group of islands belongs to French
+              Polynesia and are a collectivity of France.
+            </p>
+          </div>
+        </div>
+      </article>
     </>
   );
 }
