@@ -8,8 +8,10 @@ function App() {
       <Header />
       <div className="entry">
         <Entry
-          img="/dolomites.png"
-          ialt="dolomites image"
+          img={{
+            src: "/dolomites.png",
+            alt: "dolomites image",
+          }}
           country="ITALY"
           map="https://maps.app.goo.gl/8pMFsDtNYXqVyodX7"
           place="Dolomites"
@@ -25,8 +27,10 @@ function App() {
               Verona in Italy, and Innsbruck in Austria."
         />
         <Entry
-          img="/lake-pukaki.png"
-          ialt="lake pukaki image"
+          img={{
+            src: "/lake-pukaki.png",
+            alt: "lake pukaki image",
+          }}
           country="NEW ZEALAND"
           map="https://maps.app.goo.gl/Apgd8UYTPFC4Mzkq5"
           place="Lake Pukaki"
@@ -43,8 +47,10 @@ function App() {
               lake."
         />
         <Entry
-          img="/dunluce-castle.png"
-          ialt="dunluce castle image"
+          img={{
+            src: "/dunluce-castle.png",
+            alt: "dunluce castle image",
+          }}
           country="IRELAND"
           map="https://maps.app.goo.gl/5wFet3bEZuvKYkcC9"
           place="Dunluce Castle"
@@ -61,8 +67,10 @@ function App() {
               mainland by a bridge."
         />
         <Entry
-          img="/bora-bora.png"
-          ialt="bora bora image"
+          img={{
+            src: "/bora-bora.png",
+            alt: "bora bora image",
+          }}
           country="French Polynesia (PO)"
           map="https://maps.app.goo.gl/LgNc4xkMUqHbJ5786"
           place="Bora Bora"
@@ -80,8 +88,10 @@ function App() {
               Polynesia and are a collectivity of France."
         />
         <Entry
-          img="/santorini.png"
-          ialt="santorini image"
+          img={{
+            src: "/santorini.png",
+            alt: "santorini image",
+          }}
           country="Greece"
           map="https://maps.app.goo.gl/WMvnNbt24xpjkY3v7"
           place="Santorini"

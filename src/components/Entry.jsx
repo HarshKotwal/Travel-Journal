@@ -2,7 +2,7 @@ export default function Entry(props) {
   return (
     <>
       <article className="entry-journal">
-        <img src={props.img} alt={props.ialt} />
+        <img src={props.img.src} alt={props.img.alt} />
         <div>
           <div className="upper">
             <i class="fa-solid fa-location-dot" />
